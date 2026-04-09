@@ -1,0 +1,70 @@
+body {
+    background-image: url("hlbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: yellow;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px orange;
+    font-family: "League Spartan", sans-serif;
+}
+.check{
+    appearance: none;
+    cursor: pointer;
+}
+.check::before{
+    content: "O";
+    font-family: "League Spartan", sans-serif;
+    color: yellow;
+    text-shadow: 0 0 20px orange;
+    font-size: 20px;
+}
+.check:checked::before{
+    content: "X";
+}
+.hl {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "League Spartan", sans-serif;
+    color: yellow;
+    text-shadow: 0 0 5px orange;
+    transition: text-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.hl:hover {
+    text-shadow: 0 0 5px orange;
+    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 20px orange;
+}
+.of {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "League Spartan", sans-serif;
+    color: yellow;
+    text-shadow: 0 0 5px orange;
+    transition: text-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.of:hover {
+    text-shadow: 0 0 5px orange;
+    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 20px orange;
+}
+.bs {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "League Spartan", sans-serif;
+    color: yellow;
+    text-shadow: 0 0 5px orange;
+    transition: text-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.bs:hover {
+    text-shadow: 0 0 5px orange;
+    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 20px orange;
+}
